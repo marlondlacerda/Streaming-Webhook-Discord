@@ -2,7 +2,7 @@ name: Streaming Releases Bot
 
 on:
   schedule:
-    - cron: "0 15 * * *"   # todo dia às 12h (horário de Brasília)
+   # - cron: "0 15 * * *"   # todo dia às 12h (horário de Brasília)
   workflow_dispatch:        # permite rodar manualmente
 
 permissions:
